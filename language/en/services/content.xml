@@ -1,0 +1,19 @@
+<content>
+	<dom>
+		<service-1-title>First featurette heading. </service-1-title>
+		<service-1-sub>It'll blow your mind.</service-1-sub>
+		<service-1-body>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</service-1-body>
+
+		<service-2-title>Oh yeah, it's that good. </service-2-title>
+		<service-2-sub>See for yourself.</service-2-sub>
+		<service-2-body>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</service-2-body>
+
+		<service-3-title>And lastly, this one.</service-3-title>
+		<service-3-sub>Checkmate..</service-3-sub>
+		<service-3-body>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</service-3-body>
+
+		<service-4-title>Oh yeah, it's that good. </service-4-title>
+		<service-4-sub>See for yourself.</service-4-sub>
+		<service-4-body>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</service-4-body>
+	</dom>
+</content>

@@ -1,0 +1,48 @@
+<content>
+	<dom>
+		<who_we_are>Quienes somos</who_we_are>
+		<who_we_are_paragraph_1>Nuestra misión es buscar la corrección de tus problemas dentales y maxilares, utilizando aparatos de calidad, actuales y estéticos, para obtener un balance dentomaxilofacial que necesites.</who_we_are_paragraph_1>
+		<who_we_are_paragraph_2>Contamos con equipo especializado, para satisfacer las necesidades de cada paciente y todo dentro de un ambiente cálido y profesional. 
+		</who_we_are_paragraph_2>
+
+		<team>Equipo de trabajo</team>
+
+		<profession>Profesión</profession>
+		<specialty>Especialidad</specialty>
+		<birthdate>Fecha de Nacimiento</birthdate>
+		<bornplace>Lugar de Nacimiento</bornplace>
+		<email>Correo Electrónico</email>
+
+		<judith_profession>Cirujano Dentista</judith_profession>
+		<judith_specialty>Ortodoncia</judith_specialty>
+		<judith_birthdate>26 de Enero de 1958</judith_birthdate>
+
+		<gladys_profession>Cirujano Dentista</gladys_profession>
+		<gladys_specialty>Odontología Pediátrica</gladys_specialty>
+		<gladys_birthdate>12 Mayo de 1985</gladys_birthdate>
+
+		<education_path>Trayectoria educativa</education_path>
+
+		<bachelors>Licenciatura</bachelors>
+		<study_span>Periodo de Estudios</study_span>
+		<degree>Grado</degree>
+		<posgrado>Posgrado</posgrado>
+
+		<judith_bachelors>Facultad de Odontología de la Universidad Autónoma de Guadalajara</judith_bachelors>
+		<judith_degree>Título de Cirujano Dentista</judith_degree>
+		<judith_posgrado>Universidad Tecnológica de México</judith_posgrado>
+		<judith_degree_2>Especialidad en Ortodoncia</judith_degree_2>
+
+		<gladys_bachelors>Facultad de Odontología de la Universidad Autónoma de Chihuahua</gladys_bachelors>
+		<gladys_degree>Título de Cirujano Dentista</gladys_degree>
+		<gladys_posgrado>Odontología Pediátrica en la Universidad Tecnológica de México (UNITEC)</gladys_posgrado>
+		<gladys_degree_2>Especialidad en Odontología Pediátrica</gladys_degree_2>
+
+		<employment_path>Trayectoria laboral</employment_path>
+
+		<judith_employment>A la fecha más de 13 años de experiencia en práctica exclusiva en Ortodoncia.</judith_employment>
+
+		<gladys_employment_1>2012: S y J dental Clinic</gladys_employment_1>
+		<gladys_employment_2>2013 a la Fecha: Odontopediatra en el Hospital Infantil de Especialidades del Estado de Chihuahua</gladys_employment_2>
+	</dom>
+</content>

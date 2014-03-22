@@ -1,0 +1,13 @@
+<content>
+	<dom>
+		<home>Inicio</home>
+		<services>Servicios</services>
+		<about>Acerca de nosotros</about>
+		<success_cases>Casos de éxito</success_cases>
+		<contact>Contacto</contact>
+
+		<signedin>Sesión iniciada como </signedin>
+		<rights-reserved>© 2013 - Todos los derechos reservados</rights-reserved>
+		<developed-by>Desarrollado por </developed-by>
+	</dom>
+</content>

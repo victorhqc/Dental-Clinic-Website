@@ -1,0 +1,24 @@
+<content>
+	<dom>
+		<contat-title>Información de contacto</contat-title>
+
+		<direction-title>Dirección</direction-title>
+		<direction>Dental clinic se encuentra ubicado en</direction>
+		<direction-1>Perif. De la Juventud, No. 6902-21</direction-1>
+		<direction-2> en Chihuahua, Chih. México</direction-2>
+
+		<telephone-title>Teléfono</telephone-title>
+
+		<email-title>Correo electrónico</email-title>
+
+		<map-hint>Ver mapa más grande</map-hint>
+
+		<form-title>Contáctanos</form-title>
+		<name>Nombre</name>
+		<subject>Asunto</subject>
+		<email>Correo electrónico</email>
+		<phone>Teléfono</phone>
+		<message>Mensaje</message>
+		<send>Envíar</send>
+	</dom>
+</content>
