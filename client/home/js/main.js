@@ -20,7 +20,7 @@
 		var imgs = this.a._data.gallery.images;
 		var element = document.getElementById(id);
 		element.innerHTML = '';
-		
+
 		var gj = {images:imgs, container: '#' + id};
 		this.gallery = new YGallery(gj);
 	};

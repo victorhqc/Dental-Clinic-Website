@@ -27,6 +27,7 @@
         "xdescribe": true,
         "xit": true,
         "spyOn": true,
-        "MessageFormat": true
+        "MessageFormat": true,
+        "YGallery": true
     }
 }

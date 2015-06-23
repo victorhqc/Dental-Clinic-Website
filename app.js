@@ -1,4 +1,4 @@
-angular.module('DentalClinic', ['ui.bootstrap', 'ui.utils', 'ngRoute', 'ngAnimate', 'translations']);
+angular.module('DentalClinic', ['ui.bootstrap', 'ui.utils', 'ngRoute', 'ngAnimate', 'translations', 'home']);
 
 angular.module('DentalClinic').config(function($routeProvider) {
 

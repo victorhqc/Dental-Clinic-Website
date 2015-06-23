@@ -23,6 +23,10 @@
       {
         "name": "translations",
         "file": "translations/translations.js"
+      },
+      {
+        "name": "home",
+        "file": "home/home.js"
       }
     ]
   }

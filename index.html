@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link href="app.less" type="text/css" rel="stylesheet/less">
+    <link rel="stylesheet" type="text/css" href="bower_components/yetAnotherGallery/gallery.class.css">
 </head>
 <body>
 
@@ -26,6 +27,7 @@
     <script src="bower_components/angular-translate/angular-translate.min.js"></script>
     <script src="bower_components/messageformat/messageformat.js"></script>
     <script src="bower_components/angular-translate-interpolation-messageformat/angular-translate-interpolation-messageformat.min.js"></script>
+    <script src="bower_components/yetAnotherGallery/gallery.class.js"></script>
     <!-- Add New Bower Component JS Above -->
 
 
@@ -33,14 +35,34 @@
     <script src="app.js"></script>
     <script src="directive/menu/menu.js"></script>
     <script src="translations/translations.js"></script>
+    <script src="home/home.js"></script>
+    <script src="home/partial/home/home.js"></script>
     <!-- Add New Component JS Above -->
 
     <div>
         <menu></menu>
-        <div id="content" class="container">
-
+        <div id="content">
+            <div ng-view>
+            </div>
+        </div>
+        <div id="footer">
             <div class="row">
-                <div ng-view>
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <address class="credit">
+                        <strong>Dental Clinic S&J.</strong><br>
+                        Perif. De la Juventud, No. 6902-21<br>
+                        Chihuahua, CH C.P. 31217<br>
+                        <abbr title="Teléfono">T:</abbr> (614) 423-2120<br>
+                        <abbr title="Teléfono">T:</abbr> (614) 423-2130<br>
+                        <abbr title="Correo electrónico">C:</abbr> dentalclinic@prodigy.net.mx
+                    </address>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-muted credit">
+                    <small><span>Desarrollado por </span><a href="http://www.victorhqc.com" target="_blank">victorhqc</a></small>
                 </div>
             </div>
         </div>
