@@ -1,0 +1,9 @@
+{
+	"name": "Dental Clinic",
+	"dependencies": {
+		"webapp": "",
+		"yetAnotherGallery":"",
+		"jquery": "",
+		"bootstrap": ""
+	}
+}

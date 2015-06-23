@@ -1,0 +1,34 @@
+<div>
+    <!--Menú para móviles-->
+    <div class="navbar navbar-default visible-xs" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">Dental Clinic</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav main-menu" id="mobile_menu">
+                <li ng-repeat="category in categories" data-module="category.name" ng-click="loadCategory(category, $event)">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Menú regular -->
+    <ul id="top-menu" class="row hidden-xs main-menu" ng-mouseleave="collapseMenu($event)">
+        <li
+        ng-repeat="category in categories"
+        data-module="{{category.name}}"
+        class="col-sm-{{numbers.num}}"
+        {{if($index === 0){ 'data-first=""'; } }}
+        ng-mouseenter="adjustCategory(category, $event)"
+        ng-click="loadCategory(category, $event)"
+        >
+        <a href="/#/{{category.name}}">{{category.name | translate}}</a>
+        </li>
+    </ul>
+    <div id="content">
+
+</div>
