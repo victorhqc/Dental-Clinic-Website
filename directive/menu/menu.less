@@ -7,13 +7,13 @@
 
 @media (min-width: 768px) {
     #top-menu>li {
-        min-height: 60px;
+        height: 60px;
     }
 }
 
 @media (min-width: 992px) {
     #top-menu>li {
-        min-height: 85px;
+        height: 85px;
     }
 }
 
@@ -24,15 +24,25 @@
 #top-menu>li {
     cursor: pointer;
     display: block;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 #top-menu>li>a {
     color: white;
     font-weight: lighter;
-    margin: 0;
-    padding: 15px 0;
     font-size: 1.3em;
     text-decoration: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    top: 36%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
 }
 
 #top-menu li:nth-child(1), #appointments-container .appointment-cont:nth-child(1) .appointment {

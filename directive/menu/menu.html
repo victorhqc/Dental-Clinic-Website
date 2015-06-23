@@ -11,7 +11,8 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav main-menu" id="mobile_menu">
-                <li ng-repeat="category in categories" data-module="category.name" ng-click="loadCategory(category, $event)">
+                <li ng-repeat="category in categories" data-module="category.name">
+                    <a href="/#/{{category.name}}">{{category.name | translate}}</a>
                 </li>
             </ul>
         </div>

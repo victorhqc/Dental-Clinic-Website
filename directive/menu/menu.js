@@ -72,8 +72,8 @@ angular.module('DentalClinic').directive('menu', function($location, $timeout) {
                 routeChange();
             };
 
-            scope.loadCategory = function(category, ev) {
-                console.log('to-load', category);
+            scope.loadCategory = function(category) {
+                $location.path('/' + category.name);
             };
 
             function routeChange()
