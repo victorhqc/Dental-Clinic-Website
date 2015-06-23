@@ -1,0 +1,92 @@
+<div class="col-md-12" ng-controller="ContactCtrl">
+    <div class="text-container">
+        <div class="row">
+            <div id="map-container" class="col-sm-8">
+                <iframe id="map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com.mx/maps?sll=28.665871757533242,-106.06419780000002&amp;sspn=0.20546876229226413,0.44683109935908927&amp;t=m&amp;q=chihuahua&amp;ie=UTF8&amp;hq=&amp;hnear=Chihuahua&amp;ll=28.630581,-106.0737&amp;spn=0.350765,0.631714&amp;z=11&amp;output=embed"></iframe><br /><small><a href="https://www.google.com.mx/maps?sll=28.665871757533242,-106.06419780000002&amp;sspn=0.20546876229226413,0.44683109935908927&amp;t=m&amp;q=chihuahua&amp;ie=UTF8&amp;hq=&amp;hnear=Chihuahua&amp;ll=28.630581,-106.0737&amp;spn=0.350765,0.631714&amp;z=11&amp;source=embed" style="color:#0000FF;text-align:left" data-ltag="map-hint"></a></small>
+            </div>
+            <div class="col-sm-4">
+                <h2>Información de contacto</h2>
+                <h4>
+                    <i class="fa fa-map-marker text-info"></i>
+                    <span>Dirección</span>
+                </h4>
+                <p>
+                    <span>Dental clinic se encuentra ubicado en</span>
+                    <strong>Perif. De la Juventud, No. 6902-21</strong>
+                    <span> en Chihuahua, Chih. México</span>
+                </p>
+
+                <h4>
+                    <i class="fa fa-phone text-info"></i>
+                    <span>Teléfono</span>
+                    <p>
+                        <ul>
+                            <li>(614) 423 2120</li>
+                            <li>(614) 423 2130</li>
+                        </ul>
+                    </p>
+                </h4>
+
+                <h4>
+                    <i class="fa fa-envelope text-info"></i>
+                    <span>Correo electrónico</span>
+                </h4>
+                <p><a href="mailto:dentalclinic@prodigy.net.mx">dentalclinic@prodigy.net.mx</a></p>
+            </div>
+        </div>
+
+        <div class="cont-separator"></div>
+
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+                <form class="form-horizontal">
+                    <h2>Contáctanos</h2>
+                    <fieldset>
+                        <div class="form-group">
+                            <label for="name" class="col-lg-2 control-label">Nombre</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="col-lg-2 control-label">Asunto</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="col-lg-2 control-label">Teléfono</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="col-lg-2 control-label" >Correo electrónico</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="col-lg-2 control-label">Mensaje</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" id="message" required></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <button class="btn btn-success pull-right">
+                        <span data-ltag="send">Enviar</span>
+                        <i class="fa fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1 text-center">
+                <img class="img-responsive img-round" src="./img/contacto/contacto.jpg">
+            </div>
+        </div>
+    </div>
+
+</div>
